@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/panoramaFragment">
+
+    <fragment
+        android:id="@+id/descFragment"
+        android:name="com.nonmagis.startappurmat.DescFragment"
+        android:label="fragment_desc"
+        tools:layout="@layout/fragment_desc" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.nonmagis.startappurmat.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/panoramaFragment"
+        android:name="com.nonmagis.startappurmat.PanoramaFragment"
+        android:label="fragment_panorama"
+        tools:layout="@layout/fragment_panorama" />
+</navigation>
